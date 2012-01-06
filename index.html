@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>
+		CakePHP: the rapid development php framework. PEAR Channel</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link href="http://stage.cakephp.org/favicon.ico" type="image/x-icon" rel="icon" /><link href="http://stage.cakephp.org/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="http://stage.cakephp.org/csfnavbar/css/style.css" /><link rel="stylesheet" type="text/css" href="http://stage.cakephp.org/asset_compress/assets/get/app.css" /><!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://cakephp.org/css/ie.css" /><![endif]--><link rel="alternate" type="application/rss+xml" href="<?php echo $this->server->url ?>/feed.xml" title="<?php echo  $this->server->summary ?> Latest Releases" />
+<style>
+pre {
+	font-family: monospace;
+	line-height: 100%;
+	color: #fff;
+	display: block;
+	padding: 10px;
+	margin-bottom: 18px;
+	background-color: black;
+	font-size: .9em;
+	line-height: 1.35em;
+}
+</style>
+</head>
+<body class="js">
+	<div id="cakephp-global-navigation">
+		<ul>
+			<li class="main"><a href="http://cakephp.org">CakePHP</a></li>
+			<li><a href="#" class="empty">Downloads</a>
+				<ul>
+					<li><a href="http://cakephp.org">Latest Release</a></li>
+					<li class="cake-version"><a href="http://github.com/cakephp/cakephp/tree/1.2">CakePHP 1.2</a>
+						<ul>
+							<li><a href="http://github.com/cakephp/cakephp/archives/1.2">Download</a>&nbsp;|</li>
+							<li><a href="http://cakephp.lighthouseapp.com/projects/42648-cakephp/milestones">Tickets</a></li>
+						</ul>
+					</li>
+					<li class="cake-version"><a href="http://github.com/cakephp/cakephp/tree/1.3">CakePHP 1.3</a>
+						<ul>
+							<li><a href="http://github.com/cakephp/cakephp/archives/1.3">Download</a>&nbsp;|</li>
+							<li><a href="http://cakephp.lighthouseapp.com/projects/42648-cakephp/milestones">Tickets</a></li>
+						</ul>
+					</li>
+					<li class="cake-version"><a href="http://github.com/cakephp/cakephp/tree/2.0">CakePHP 2.0</a>
+						<ul>
+							<!-- <li><a href="#">Download</a>|</li> -->
+							<li><a href="http://cakephp.lighthouseapp.com/projects/42648-cakephp/milestones">Tickets</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#" class="empty">Documentation</a>
+				<ul>
+					<li class="cake-version"><a href="http://api.cakephp.org">API</a>
+						<ul>
+							<li><a href="http://api11.cakephp.org">1.1</a>&nbsp;|</li>
+							<li><a href="http://api12.cakephp.org">1.2</a>&nbsp;|</li>
+							<li><a href="http://api13.cakephp.org">1.3</a>&nbsp;|</li>
+							<li><a href="http://api20.cakephp.org">2.0</a></li>
+						</ul>
+					</li>
+					<li class="cake-version"><a href="http://book.cakephp.org">Book</a>
+						<ul>
+							<li><a href="http://book.cakephp.org/view/305/The-Manual">1.1</a>&nbsp;|</li>
+							<li><a href="http://book.cakephp.org/view/3/The-Manual">1.2</a>&nbsp;|</li>
+							<li><a href="http://book.cakephp.org/view/876/The-Manual">1.3</a>&nbsp;|</li>
+							<li><a href="http://book.cakephp.org/2.0/en/">2.0</a></li>
+						</ul>
+					</li>
+					<li><a href="http://cakephp.lighthouseapp.com">Tickets</a></li>
+					<li><a href="http://translation.cakephp.org">Translations</a></li>
+				</ul>
+			</li>
+			<li><a href="#" class="empty">Community</a>
+				<ul>
+					<li><a href="http://bakery.cakephp.org">Bakery</a></li>
+					<li><a href="http://github.com/cakephp/cakephp/contributors">Contributors</a></li>
+					<li><a href="http://groups.google.com/group/cake-php">Google Groups</a></li>
+					<li><a href="http://cakephp.org/logos">Logo</a></li>
+					<li><a href="http://cakephp.org/planet">Planet</a></li>
+					<li><a href="http://ask.cakephp.org">Q &amp; A</a></li>
+					<li><a href="http://tv.cakephp.org">TV (Screencasts)</a></li>
+				</ul>
+			</li>
+			<li><a href="http://cakephp.org/services">Services</a>
+				<ul>
+					<li><a href="http://cakephp.org/services/certification">Certification</a></li>
+					<li><a href="http://cakephp.org/services/consultation">Consultation</a></li>
+					<li><a href="http://cakephp.org/services/support">Support</a></li>
+					<li><a href="http://cakephp.org/services/training">Training</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="container">
+		<header class="masthead">
+			<div class="header-backing"></div>
+			<div class="row">
+				<h1 class="logo columns three"><a href="/"><img src="http://stage.cakephp.org/img/cake-logo.png" alt="CakePHP : the rapid development php framework" /></a></h1>
+				<h2 class="tagline">
+					CakePHP makes building web applications simpler, faster and require less code.				</h2>
+
+				<nav class="main-nav">
+					<ul class="navigation">
+						<li><a href="/news">News</a></li>
+						<li><a href="/pages/development">Development</a></li>
+						<li><a href="/pages/documentation">Documentation</a></li>
+					</ul>
+				</nav>
+				<div class="download">
+					<a class="download-current" href="https://github.com/cakephp/cakephp/zipball/2.0.3">
+						<span class="version">2.0.3 Stable</span>
+					</a>
+					<a class="download-other" href="http://github.com/cakephp/cakephp/tags">other releases</a>
+				</div>
+			</div>
+		</header>
+
+		<div id="content">
+			<div class="row">
+				<div class="section why">
+				<div class="row">
+					<div class="six columns">
+						<h2>CakePHP PEAR Channel</h2>
+						<h3 class="icon icon-build">Registering the channel</h3>
+						<pre><code>pear channel-discover <?php echo $this->server->name ?></code></pre>
+
+						<h3 class="icon icon-build">Listing available packages</h3>
+						<pre><code>pear remote-list -c <?php echo $this->server->alias ?></code></pre>
+
+						<h3 class="icon icon-build">Installing a package</h3>
+						<pre><code>pear install <?php echo $this->server->alias ?>/package_name</code></pre>
+
+						<h3 class="icon icon-build">Installing a specific version/stability</h3>
+						<pre><code>pear install <?php echo $this->server->alias ?>/package_name-1.0.0
+pear install <?php echo $this->server->alias ?>/package_name-beta</code></pre>
+
+						<h3 class="icon icon-build">Receiving updates via a <a href="<?php echo $this->server->url ?>/feed.xml">feed</a></h3>
+						<pre><code><?php echo $this->server->url ?>/feed.xml</code></pre>
+					</div>
+
+					<div class="one columns"></div>
+
+					<div class="six columns">
+						<h2>Packages</h2>
+						<?php foreach ($this->packages as $package):
+						    $deps = array();
+						    if (isset($package['deps']['required']['package'])) {
+						        $deps = $package['deps']['required']['package'];
+						        if (isset($deps['name'])) {
+						            $deps = array($deps);
+						        }
+						    }
+
+						    $grps = array();
+						    if (isset($package['deps']['group'])) {
+						        $grps = $package['deps']['group'];
+						    }
+						?>
+						    <h3 class="icon icon-mvc"><?php echo $package['name'] ?><small> - <?php echo $package['summary'] ?></small></h3>
+						    <p><?php echo $package['description'] ?></p>
+						    <table>
+						        <tr><th>Install command</th><td><strong><?php echo $package['extension'] != null ? 'pecl' : 'pear' ?> install <?php echo $this->server->alias ?>/<?php echo $package['name'] ?></strong></td></tr>
+						        <?php if ($grps): ?><?php
+						            $groups = array();
+						            foreach ($grps as $grp) {
+						                $groups[] = ($package['extension'] != null ? 'pecl' : 'pear').' install '.$this->server->alias.'/'.$package['name'].'#'.$grp['attribs']['name'].'&nbsp;<small>('.$grp['attribs']['hint'].')</small>';
+						            }
+						            $groups = implode('<br/>', $groups);
+						        ?>
+						        <tr><th>Install groups:</th><td><?php echo $groups ?></td></tr>
+						        <?php endif; ?>
+						        <tr><th>License</th><td><?php echo $package['license'] ?></td></tr>
+						        <?php if ($deps): ?>
+						            <tr><th>Dependencies</th><td>
+						                <?php for ($i = 0, $count = count($deps); $i < $count; $i++): ?>
+						                    <?php echo $deps[$i]['channel'].'/'.$deps[$i]['name'].($i < $count - 1 ? ', ' : '') ?>
+						                <?php endfor; ?>
+						            </td></tr>
+						        <?php endif; ?>
+						        <!--
+								<?php
+						            $maintainers = array();
+						            foreach ($package['current_maintainers'] as $nickname => $maintainer) {
+						                $maintainers[] = $maintainer['name'].' <small>(as '.$maintainer['role'].')</small>';
+						            }
+						            $maintainers = implode(', ', $maintainers);
+						        ?>
+						        <tr><th>Maintainers</th><td><?php echo $maintainers ?></td></tr> 
+								-->
+						        <?php
+						        $releases = array();
+						        foreach ($package['releases'] as $release) {
+						            $releases[] = "<a href=\"{$this->server->url}/get/{$package['name']}-{$release['version']}.tgz\">{$release['version']}</a> <small>({$release['stability']})</small>";
+						        }
+						        $releases = implode(', ', $releases);
+						        ?>
+						        <tr><th>Releases</th><td><?php echo $releases ?></td></tr>
+						    </table>
+						<?php endforeach; ?>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="mastend clearfix">
+		<div class="row">
+			<nav class="six columns">
+				<ul class="footer-nav">
+					<li><a href="http://stage.cakephp.org/news">News</a></li>
+					<li><a href="http://stage.cakephp.org/pages/development">Development</a></li>
+					<li><a href="http://stage.cakephp.org/pages/documentation">Documentation</a></li>
+					<li class="download"><a href="https://github.com/cakephp/cakephp/zipball/2.0.3">Download</a></li>
+				</ul>
+			</nav>
+			<div class="columns three offset-by-three hosting">
+				<a href="http://rackspace.com"><img src="http://stage.cakephp.org/img/rackspace-logo.png" alt="" /></a>
+			</div>
+		</div>
+		
+		<div class="row overlined">
+			<div class="columns six mini">
+				&copy; 2005-2012 <a href="http://cakefoundation.org">Cake Software Foundation, Inc.</a>				</div>
+			<div class="columns six mini right-align">
+				<a href="http://stage.cakephp.org/pages/privacy">Privacy Policy</a>					&nbsp;
+				<script type="text/javascript" src="http://www.ohloh.net/projects/3176/widgets/project_thin_badge"></script>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="http://stage.cakephp.org/asset_compress/assets/get/app.js"></script><script type="text/javascript">
+//<![CDATA[
+$(document).ready(function () {var visible = $(window).width() < 560 ? 1 : 3;
+$('#carousel').jcarousel({
+	visible: visible,
+	scroll: visible,
+	reloadCallback: function (car) {
+		var vis = 3;
+		if ($(window).width() < 560) {
+			vis = 1;
+		}
+		car.options.visible = vis;
+		car.options.scroll = vis;
+	}
+});
+$(function() {
+	$("#cakephp-global-navigation ul li a.empty")
+		.click(function(e) { e.preventDefault(); })
+		.parent().bind('mouseleave mouseenter click', function(event) {
+			var submenu = $(this).children('ul');
+			if (event.type == 'mouseleave') {
+				submenu.hide();
+			} else if (event.type == 'mouseenter') {
+				submenu.show();
+			} else {
+				submenu.toggle();
+			}
+		});
+})});
+//]]>
+</script>			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-743287-4");
+			pageTracker._initData();
+			pageTracker._trackPageview();
+		</script>
+	</body>
+</html>
+
